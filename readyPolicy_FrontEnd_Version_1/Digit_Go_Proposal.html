@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<!-- Modal -->
+<div class="modal " style="margin-right:200px" id="exampleModalLong" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false"aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header royal_color" style="background-color:#0f2b9a">
+          <h5 class="modal-title " id="exampleModalLongTitle" style="color: #ffffff;margin-left: -10px;">Your Proposal Details</h5>
+         
+        </div>
+        <div class="modal-body ">
+         <div class="form-group"> 
+				<img src="./images/Bharti_Axia_Pic.png" class="m-5">
+                          <div class="input-group">
+                                
+                              <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span>
+                              <label for="DG_Name">Full Name</label>
+                              </span>
+                              <input type="text" class="form-control " readonly style="height: 37px;" id="DG_Name"/>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                            <label for="DG_City_Reg">City of Registration</label>
+                            </span>
+                            <input type="text" class="form-control " readonly  style="height: 37px;" id="DG_City_Reg" />
+                        </div>
+                    </div>
+                      
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                            <label for="DG_Policy_Start_Date">Policy Start Date</label>
+                            </span>
+                            <input type="text" class="form-control " readonly style="height: 37px;" id="DG_Policy_Start_Date" />
+                        </div>
+                    </div>
+                      
+                    <div class="form-group">
+                        <div class="input-group">
+                              <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                              <label for="DG_Policy_End_Date">Policy End Date</label>
+                              </span>
+                            <input type="text" class="form-control " readonly style="height: 37px;" id="DG_Policy_End_Date" />
+                        </div>
+                    </div>
+                      
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                            <label for="DG_EnquiryID">Enquiry ID</label>
+                            </span>
+                            <input type="text" class="form-control" readonly style="height: 37px;" id="DG_EnquiryID"/>
+                        </div>
+                     <br/>
+                     <br/>
+		
+   		 <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+            <label class="custom-control-label" for="defaultChecked2"> &nbsp; &nbsp; &nbsp;I have read and agree to the <a href="Terms_Conditions.html" target="_blank">Terms & Condition</a></label>
+        </div>
+		</p>
+		
+     	</div>    
+
+         <br><br>
+         <div class="m_183 " style="margin-left: 313px;"><button type="button" class="btn btn_color" id="sub1"><span class="font-color">Next</span></button></div>
+       </div>
+         
+       
+     </div>
+
+
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+<script>
+document.getElementById('defaultChecked2').addEventListener('click', function (e) {
+    document.getElementById('sub1').disabled = !e.target.checked;
+});
+</script>
+<script type="text/javascript">
+$(window).on('load',function(){
+        $('#exampleModalLong').modal('show');
+});
+</script>
+</body>
+</html>
+<body>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+                      
+                     
+
+  
+  
+
+

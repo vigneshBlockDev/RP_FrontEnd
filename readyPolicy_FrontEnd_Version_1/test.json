@@ -1,0 +1,198 @@
+{
+    "idv": 745654,
+    "eligibleNCB": "TWENTY_FIVE",
+    "voluntaryDeductible": "ZERO",
+    "coveragePremium": {
+        "baseCoverPremium": {
+            "thirdPartyLiabilityCover": {
+                "premium": 7890,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 750000
+            },
+            "ownDamageCover": {
+                "premium": 8490,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 745654,
+                "plan": "PLAN_C"
+            },
+            "theftCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "fireCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            }
+        },
+        "additionalCoverPremium": {
+            "paOwnerDriverCover": {
+                "premium": 100,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 200000
+            },
+            "paUnnamedPersonCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "otherDriverCover": {
+                "premium": 50,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 200000
+            },
+            "legalLiabilityCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            }
+        },
+        "addOnCoverPremium": {
+            "partsDepreciationCover": {
+                "premium": 3691,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 0,
+                "plan": "PLAN_C",
+                "numberOfClaimsCovered": "ONE",
+                "coPay": 0
+            },
+            "engineAndGearBoxProtectionCover": {
+                "premium": 828,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 0
+            },
+            "consumableCover": {
+                "premium": 382,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 0
+            },
+            "breakdownAssistanceCover": {
+                "premium": 131,
+                "tarifPremium": 0,
+                "status": "FREE_PREMIUM",
+                "selection": true,
+                "insuredAmount": 0,
+                "plan": "PLAN_C"
+            },
+            "onSpotlegalAndFinalAssistanceCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "returnToInvoiceCover": {
+                "premium": 3811,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 0,
+                "plan": "PLAN_A",
+                "coPay": 0
+            },
+            "tyreProtectCover": {
+                "premium": 376,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 0,
+                "tyreType": "OTHERS"
+            },
+            "rimDamageCover": {
+                "premium": 807,
+                "tarifPremium": 0,
+                "selection": true,
+                "insuredAmount": 0
+            },
+            "dailyConveyanceBenefitP1Cover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "dailyConveyanceBenefitP2Cover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "fuelAdultrationCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "lossOfPersonalBelongingsCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "lossOfVehicleKeysCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "ncbProtectionCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "breakdownWarrantyCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            }
+        },
+        "accessoriesCoverPremium": {
+            "electricalCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "nonElectricalCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            },
+            "cngCover": {
+                "premium": 0,
+                "tarifPremium": 0,
+                "selection": false,
+                "insuredAmount": 0
+            }
+        },
+        "discounts": {
+            "noClaimBonusDiscounts": 2830,
+            "otherDiscounts": 0
+        }
+    },
+    "totalNetPremium": 26425,
+    "totalGrossPremium": 31184,
+    "serviceTax": {
+        "cgst": 0,
+        "sgst": 0,
+        "igst": 0,
+        "utgst": 0,
+        "totalTax": 4759
+    },
+    "enquiryId": "20182013052033-12693",
+    "error": {
+        "errorCode": 0,
+        "errorMessage": "Success"
+    }
+}

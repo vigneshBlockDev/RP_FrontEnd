@@ -1,0 +1,42 @@
+{
+    "DATA": {
+       "ECESS": "12.0",
+       "GROSS_PREMIUM": "2807.0",
+       "KRISHI_CESS": "12.0",
+       "PACKAGE_PREMIUM": "2441.0",
+       "POLICY_EXPIRY_DATE": "29/08/2017",
+       "POLICY_START_DATE": "30/08/2016",
+       "PREMIUM": "2807.0",
+       "PREMIUM_WITHOUT_COVERS": "2807",
+       "QUOTE_ID": "BR216000VMN0000002",
+       "SERVICETAX": "342.0",
+       "GST": "0",
+       "IGST": "0",
+       "CGST": "0",
+       "SGST": "0",
+       "UTGST": "0",
+       "VERSION_NO": "1.0",
+       "LIABILITY": {
+          "BASIC_PREMIUM_INCLUDING_PREMIUM_FOR_TPPD": "693.0",
+          "UNDER_SECTION_III_OWNER_DRIVER": "0.0",
+          "UNNAMED_PASSENGRS": "70.0",
+          "PA_COVER_TO_PAID_DRIVER": "35.0",
+          "TO_PAID_DRIVERS": "50.0",
+          "TO_EMPLOYESES": "100.0",
+          "TOTAL_LIABILITY_PREMIUM": "948.0"
+       },
+       "OD_PREMIUM": {
+          "BASIC_PREMIUM_AND_NON_ELECTRICAL_ACCESSORIES": "1481.0",
+          "ELECTRICAL_ACCESSORIES": "12.0",
+          "VOLUNTARY_DEDUCTABLES": "0",
+          "VOLUNTARY_DEDUCTABLE": "0.0",
+          "NO_CLAIM_BONUS": "0.0",
+          "TOTAL_OD_PREMIUM": "1493.0"
+       }
+    },
+    "Status": {
+       "StatusCode": "S-0002",
+       "Message": "Premium Calculated and Quote Saved Successfully"
+    }
+}
+
